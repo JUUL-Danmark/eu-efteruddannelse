@@ -893,10 +893,6 @@ header {
   height: 20px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-8 {
   height: 2rem;
 }
@@ -1508,6 +1504,10 @@ header {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
   }
 
   .lg\:h-3\/5 {
